@@ -13,5 +13,5 @@ setup(name='ldpackage',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/ldpackage-run'],
+      scripts=['scripts/ldpackage-run', 'scripts/ldpackage-hello'],
       zip_safe=False)
